@@ -1,20 +1,18 @@
 @charset "utf-8";
 /* 초기화 */
-* { margin: 0; padding: 0; }
-body, html { width: 100%; height: 100%; font-family: "돋움", "Dotum", sans-serif;}
-ul { list-style: none; }
-a { text-decoration: none; color:inherit; }
+* {margin: 0; padding: 0; color: #fff;}
+a {color: #333; text-decoration: none;}
+li {list-style: none;}
+table {border-spacing: 0;}
+.clearfix::before, .clearfix::after {display: block; content:''; clear:both;}
 
-/* header */
+#wrap { width: 1200px; margin: 0 auto; }
 
-/* logo */
-.cont-wrap .logo {}
-.cont-wrap .logo > img { width: 150px; display:block; margin: 0 auto; }
+#header { text-align:center; }
+#header .logo img { width: 150px }
 
-/* gnb */
-.cont-wrap .nav-wrap { width:100%; height:50px; margin: 0 auto; position: relative;}
-.cont-wrap .nav-wrap #gnb { width: 50%; text-align: center; margin: 0 auto;}
+#header .nav ul li { float:left; width: 7%; text-align: center;}
 
-.cont-wrap #gnb ul > li { float:left }
-.cont-wrap #gnb ul > li > a { display:block; padding: 20px; text-align: center; }
-.cont-wrap #gnb ul > li + ul > li { display:none; }
+#header .nav ul li ul.submenu { display:none; }
+
+#slide { width: 100%; text-align: center; overflow: hidden;  }
