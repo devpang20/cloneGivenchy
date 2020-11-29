@@ -11,8 +11,9 @@ table {border-spacing: 0;}
 #header { text-align:center; }
 #header .logo img { width: 150px }
 
-#header .nav ul li { float:left; width: 7%; text-align: center;}
-
-#header .nav ul li ul.submenu { display:none; }
+#header #nav { width: 50%; text-align: center; margin:0 auto;}
+#header #nav > ul > li {float:left;width: 16%}
+ 
+#header #nav ul li ul.submenu { display:none; }
 
 #slide { width: 100%; text-align: center; overflow: hidden;  }
